@@ -9,13 +9,13 @@ ninjaSound.addEventListener('click', () => {
 
 const princessSound = document.getElementById('princess-sound');
 princessSound.addEventListener('click', () => {
-  audio.src = 'assets/sounds/princess.mp3';
+  audio.src = 'assets/sounds/retro.wav';
   audio.play();
 });
 
 const rangerSound = document.getElementById('ranger-sound');
 rangerSound.addEventListener('click', () => {
-  audio.src = 'assets/sounds/ranger.mp3';
+  audio.src = 'assets/sounds/dog.wav';
   audio.play();
 });
 
