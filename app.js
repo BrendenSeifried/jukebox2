@@ -23,3 +23,9 @@ bird.addEventListener('click', () => {
   audio.src = 'assets/sounds/bird.wav';
   audio.play();
 });
+
+const money = document.getElementById('money');
+money.addEventListener('click', () => {
+  audio.src = 'assets/sounds/money.wav';
+  audio.play();
+});
