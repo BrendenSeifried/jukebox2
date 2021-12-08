@@ -41,3 +41,9 @@ pond.addEventListener('click', () => {
   audio.src = 'assets/sounds/pond.wav';
   audio.play();
 });
+
+const royal = document.getElementById('royal');
+royal.addEventListener('click', () => {
+  audio.src = 'assets/sounds/royal.wav';
+  audio.play();
+});

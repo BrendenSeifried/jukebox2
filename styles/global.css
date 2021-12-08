@@ -1,6 +1,8 @@
 
 * {
+    border: 3px solid rgb(255, 0, 0);
     box-sizing: border-box;
+
   }
   
   :root {
@@ -17,7 +19,7 @@
   body {
     /* style */
     background: var(--primary-background);
-    font-family: 'Space Grotesk';
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--text-color);
   
     /* layout */
