@@ -47,3 +47,9 @@ royal.addEventListener('click', () => {
   audio.src = 'assets/sounds/royal.wav';
   audio.play();
 });
+
+const jester = document.getElementById('jester');
+jester.addEventListener('click', () => {
+  audio.src = 'assets/sounds/jester.wav';
+  audio.play();
+});
