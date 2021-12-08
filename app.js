@@ -59,3 +59,9 @@ fire.addEventListener('click', () => {
   audio.src = 'assets/sounds/fire.wav';
   audio.play();
 });
+
+const cold = document.getElementById('cold');
+cold.addEventListener('click', () => {
+  audio.src = 'assets/sounds/cold.wav';
+  audio.play();
+});
