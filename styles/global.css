@@ -6,12 +6,12 @@
   }
   
   :root {
-    --primary-background: #000000;
+    --primary-background: #ffffff;
     --secondary-background: #FFFFF4;
     --chrome-background: #DBA745;
     --text-color: #32363F;
-    --accent-light: #ED8F11;
-    --accent-dark: #c21818;
+    --accent-light: #000000;
+    --accent-dark: #000000;
   
     --padding: 20px;
   }
