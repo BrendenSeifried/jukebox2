@@ -18,3 +18,8 @@ rangerSound.addEventListener('click', () => {
   audio.play();
 });
 
+const bird = document.getElementById('bird');
+bird.addEventListener('click', () => {
+  audio.src = 'assets/sounds/bird.wav';
+  audio.play();
+});
