@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { pics } from './data.js';
 
 console.log(pics);
