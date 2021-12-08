@@ -29,3 +29,8 @@ money.addEventListener('click', () => {
   audio.src = 'assets/sounds/money.wav';
   audio.play();
 });
+const boat = document.getElementById('boat');
+boat.addEventListener('click', () => {
+  audio.src = 'assets/sounds/boat.wav';
+  audio.play();
+});
