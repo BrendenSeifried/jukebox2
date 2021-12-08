@@ -53,3 +53,9 @@ jester.addEventListener('click', () => {
   audio.src = 'assets/sounds/jester.wav';
   audio.play();
 });
+
+const fire = document.getElementById('fire');
+fire.addEventListener('click', () => {
+  audio.src = 'assets/sounds/fire.wav';
+  audio.play();
+});

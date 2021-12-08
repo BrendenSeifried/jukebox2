@@ -33,7 +33,7 @@
   }
   
   h1 {
-    margin: 0;
+    margin: 20;
   }
   
   main {
@@ -44,12 +44,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;  
+    gap: 30px;  
   }
   
   li {
-    width: 175px;
-    height: 145px;
+    width: 200px;
+    height: 155px;
     display: grid;
     grid-template-rows: autos 1fr auto;
     place-items: center;
