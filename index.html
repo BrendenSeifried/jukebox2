@@ -11,16 +11,26 @@
     <title>Your App</title>
 </head>
 
+
+
 <body>
     <body>
         <header>
-          <h1>Character Jukebox</h1>
+          <h1>My Random Jukebox</h1>
         </header>
    <!--Implement you app here, <a href="demo.html">See the demo</a>-->
 
+   <template id="template">
+    <li>
+      <h2 class="outline"></h2>
+      <img src="">
+      <button id="sound-button">🎼</button>
+    </li>
+  </template>
     <main>
-        <ul>
-          <li>
+        <ul id='character-list'>
+
+         <!--<li>
             <h2>Alarm!</h2>
             <img src="assets/avatars/alarm.png">
             <button id="alarm">🎼</button>
@@ -74,7 +84,7 @@
             <h2>Sneeze</h2>
             <img src="assets/avatars/cold.png">
             <button id="cold">🎼</button>
-          </li>
+          </li>-->
 
         </ul>
         <audio id="audio"></audio>

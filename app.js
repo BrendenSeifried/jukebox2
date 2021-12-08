@@ -1,72 +1,35 @@
 /* eslint-disable no-console */
 import { pics } from './data.js';
 
-console.log(pics);
 
+const template = document.getElementById('template');
+const characterList = document.getElementById('character-list');
 const audio = document.getElementById('audio');
 
-const ninjaSound = document.getElementById('alarm');
-ninjaSound.addEventListener('click', () => {
-  audio.src = 'assets/sounds/alarm.wav';
-  audio.play();
-});
+// loop the array
+for (let pic of pics){
+    console.log(pic); 
+  // for each character:
+  // make a copy of the template
+  const copy = template.content.cloneNode(true);
+  // find the h2, img, and button elements
+  const header = copy.querySelector('h2');
+  const image = copy.querySelector('img');
+  const button = copy.querySelector('button');
+  // set the h2.textContent and img.src
+  header.textContent = pic.name;
+  image.src = pic.image;
 
-const princessSound = document.getElementById('retro');
-princessSound.addEventListener('click', () => {
-  audio.src = 'assets/sounds/retro.wav';
-  audio.play();
-});
+  // subscribe to button click
+  button.addEventListener('click', () => {
+    audio.src = pic.audio;
+    audio.play();
+  });
 
-const rangerSound = document.getElementById('dog');
-rangerSound.addEventListener('click', () => {
-  audio.src = 'assets/sounds/dog.wav';
-  audio.play();
-});
+  // add (append) the copy to the list (ul)
+  characterList.appendChild(copy);
+}
 
-const bird = document.getElementById('bird');
-bird.addEventListener('click', () => {
-  audio.src = 'assets/sounds/bird.wav';
-  audio.play();
-});
 
-const money = document.getElementById('money');
-money.addEventListener('click', () => {
-  audio.src = 'assets/sounds/money.wav';
-  audio.play();
-});
 
-const boat = document.getElementById('boat');
-boat.addEventListener('click', () => {
-  audio.src = 'assets/sounds/boat.wav';
-  audio.play();
-});
 
-const pond = document.getElementById('pond');
-pond.addEventListener('click', () => {
-  audio.src = 'assets/sounds/pond.wav';
-  audio.play();
-});
-
-const royal = document.getElementById('royal');
-royal.addEventListener('click', () => {
-  audio.src = 'assets/sounds/royal.wav';
-  audio.play();
-});
-
-const jester = document.getElementById('jester');
-jester.addEventListener('click', () => {
-  audio.src = 'assets/sounds/jester.wav';
-  audio.play();
-});
-
-const fire = document.getElementById('fire');
-fire.addEventListener('click', () => {
-  audio.src = 'assets/sounds/fire.wav';
-  audio.play();
-});
-
-const cold = document.getElementById('cold');
-cold.addEventListener('click', () => {
-  audio.src = 'assets/sounds/cold.wav';
-  audio.play();
-});
