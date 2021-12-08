@@ -30,6 +30,20 @@ export const pics = [{
     name:'pond',
     image:'assets/avatars/pond.png',
     audio:'assets/sounds/pond.wav',
-}
-
-];
+}, {
+    name:'royal',
+    image:'assets/avatars/royal.png',
+    audio:'assets/sounds/royal.wav',
+}, {
+    name:'jester',
+    image:'assets/avatars/jester.png',
+    audio:'assets/sounds/jester.wav',
+}, {
+    name:'fire',
+    image:'assets/avatars/fire.png',
+    audio:'assets/sounds/fire.wav',
+}, {
+    name:'cold',
+    image:'assets/avatars/cold.png',
+    audio:'assets/sounds/cold.wav',
+}];
